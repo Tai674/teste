@@ -1,0 +1,9 @@
+from kivy.app import App
+from kivy.uix.label import Label
+
+class ColossusAdmin(App):
+    def build(self):
+        return Label(text="Colossus Admin rodando no GitHub!")
+
+if __name__ == "__main__":
+    ColossusAdmin().run()
